@@ -22,7 +22,7 @@ Variables in Python can hold data of different types, including numbers, lists, 
 
 ### append()
 
-#Adds an element to the end of a list.
+# Adds an element to the end of a list.
 
 ```python
 my_list = [1, 2, 3]
@@ -32,7 +32,7 @@ print(my_list)  # Output: [1, 2, 3, 4]
 
 ### insert()
 
-#Inserts an element at a specific index in a list.
+# Inserts an element at a specific index in a list.
 
 ```python
 my_list = [1, 2, 3]
@@ -43,7 +43,7 @@ print(my_list)  # Output: [1, 5, 2, 3]
 
 ### remove()
 
-#Removes the first occurrence of an element from a list.
+# Removes the first occurrence of an element from a list.
 
 ```python
 my_list = [1, 2, 3, 2]
@@ -52,13 +52,16 @@ print(my_list)  # Output: [1, 3, 2]
 
 ```
 
-### remove()
+### sort()
 
-#Removes the first occurrence of an element from a list.
+# Sorts the elements of a list in ascending or descending order.
 
 ```python
-my_list = [1, 2, 3, 2]
-my_list.remove(2)  # Removes the first occurrence of 2
-print(my_list)  # Output: [1, 3, 2]
+my_list = [3, 1, 4, 2]
+my_list.sort()  # Sorts in ascending order
+print(my_list)  # Output: [1, 2, 3, 4]
+
+my_list.sort(reverse=True)  # Sorts in descending order
+print(my_list)  # Output: [4, 3, 2, 1]
 
 ```
