@@ -22,10 +22,43 @@ Variables in Python can hold data of different types, including numbers, lists, 
 
 ### append()
 
-Adds an element to the end of a list.
+#Adds an element to the end of a list.
 
 ```python
 my_list = [1, 2, 3]
 my_list.append(4)
 print(my_list)  # Output: [1, 2, 3, 4]
+```
+
+### insert()
+
+#Inserts an element at a specific index in a list.
+
+```python
+my_list = [1, 2, 3]
+my_list.insert(1, 5)  # Insert before index 1
+print(my_list)  # Output: [1, 5, 2, 3]
+
+```
+
+### remove()
+
+#Removes the first occurrence of an element from a list.
+
+```python
+my_list = [1, 2, 3, 2]
+my_list.remove(2)  # Removes the first occurrence of 2
+print(my_list)  # Output: [1, 3, 2]
+
+```
+
+### remove()
+
+#Removes the first occurrence of an element from a list.
+
+```python
+my_list = [1, 2, 3, 2]
+my_list.remove(2)  # Removes the first occurrence of 2
+print(my_list)  # Output: [1, 3, 2]
+
 ```
