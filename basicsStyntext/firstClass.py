@@ -16,9 +16,9 @@
 # for item in [1, 2, 3]:
 #     print(item)
 
-count = 0
-while count < 5:
-    print(count)
-    count += 1
+# count = 0
+# while count < 5:
+#     print(count)
+#     count += 1
 
 #  here  of python Loops
